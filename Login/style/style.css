@@ -1,0 +1,68 @@
+* { margin: 0; padding: 0; box-sizing: border-box; text-decoration: none; outline: none;}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient( 110deg, rgb(16, 103, 173), rgb(7, 7, 7));
+}
+
+#container {
+    border-radius: 15px;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    opacity: 0.4;
+}
+
+#container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#container input {
+     padding: 8px;
+     width: 300px;
+     margin: 5px 0 20px 0;
+     border-radius: 5px;
+}
+
+ input::placeholder {
+     font-size: 15px;
+}
+
+#btn {
+     background-color: rgb(32, 76, 219);
+     color:#fff;
+     padding: 8px;
+     width: 300px;
+     font-size: 20px;
+     cursor: pointer;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-weight: 600;
+     border-radius: 5px;
+}
+
+#btn:hover {
+    background-color: rgb(49, 46, 192);
+}
+
+#recuperar-senha {
+    margin-top: 15px;
+    color: white;
+    font-size: 19px;
+}
+
+#recuperar-senha:hover {
+    color: royalblue;
+}
+
+#recuperar-senha:active {
+    color: #f00;
+}
